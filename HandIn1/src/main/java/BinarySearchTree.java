@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class BinarySearchTree<E extends Comparable<E>> extends BinaryTree<E>
 {
@@ -222,7 +223,31 @@ public class BinarySearchTree<E extends Comparable<E>> extends BinaryTree<E>
 
   void reBalance()
   {
+    ArrayList<E> list = new ArrayList<E>();
+    inOrderTraversal(root, list);
+    root = null;
+    reBalance(list, 0, list.size() - 1);
+  }
 
+  private void reBalance(ArrayList<E> list, int first, int last)
+  {
+    if (first <= last)
+    {
+      int mid = (first + last) / 2;
+      insert(list.get(mid));
+      reBalance(list, first, mid - 1);
+      reBalance(list, mid + 1, last);
+    }
+  }
+
+  private void inOrderTraversal(BinaryTreeNode<E> root, ArrayList<E> list)
+  {
+    if (root != null)
+    {
+      inOrderTraversal(root.getLeftChild(), list);
+      list.add(root.getElement());
+      inOrderTraversal(root.getRightChild(), list);
+    }
   }
 
 }
