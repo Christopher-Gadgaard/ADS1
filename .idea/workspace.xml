@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f73f7d4-f893-45da-bd75-43bd6087f2f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/HandIn2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HandIn2/src/main/java/Chessboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HandIn2/src/main/java/UtopiaCoins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandIn1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HandIn1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandIn1/src/main/java/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/HandIn1/src/main/java/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandIn1/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HandIn1/src/main/java/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandIn1/src/test/java/BinarySearchTreeNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HandIn1/src/test/java/BinarySearchTreeNodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandIn1/src/test/java/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HandIn1/src/test/java/BinarySearchTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +47,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/Christopher/IdeaProjects/ADS1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -64,63 +64,53 @@
       <recent name="C:\Users\Christopher\IdeaProjects\ADS1\HandIn1\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchTreeNodeTest">
-    <configuration name="BinarySearchTreeNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HandIn1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearchTreeNodeTest" />
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="Application.UtopiaCoins">
+    <configuration name="Chessboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chessboard" />
+      <module name="HandIn2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTreeTest.CanRemoveElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HandIn1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearchTreeTest" />
-      <option name="METHOD_NAME" value="CanRemoveElement" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HandIn2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTreeTest.canBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HandIn1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearchTreeTest" />
-      <option name="METHOD_NAME" value="canBalance" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="NQueensProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NQueensProblem" />
+      <module name="HandIn2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTreeTest.canCheckIfIsContained" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HandIn1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearchTreeTest" />
-      <option name="METHOD_NAME" value="canCheckIfIsContained" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="UtopiaCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UtopiaCoins" />
+      <module name="HandIn2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTreeTest.canFindMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HandIn1" />
+    <configuration name="UtopiaCoinsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HandIn2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearchTreeTest" />
-      <option name="METHOD_NAME" value="canFindMax" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="UtopiaCoinsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BinarySearchTreeNodeTest" />
-        <item itemvalue="JUnit.BinarySearchTreeTest.canBalance" />
-        <item itemvalue="JUnit.BinarySearchTreeTest.canCheckIfIsContained" />
-        <item itemvalue="JUnit.BinarySearchTreeTest.canFindMax" />
-        <item itemvalue="JUnit.BinarySearchTreeTest.CanRemoveElement" />
+        <item itemvalue="Application.UtopiaCoins" />
+        <item itemvalue="Application.Chessboard" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.UtopiaCoinsTest" />
+        <item itemvalue="Application.NQueensProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +126,8 @@
       <workItem from="1665367084839" duration="75000" />
       <workItem from="1665367290561" duration="330000" />
       <workItem from="1666265312240" duration="553000" />
-      <workItem from="1666265991389" duration="4124000" />
+      <workItem from="1666265991389" duration="4959000" />
+      <workItem from="1668955317489" duration="3933000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1665367443677</created>
@@ -145,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665367443677</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="done with rebalance">
+      <created>1666270240521</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666270240521</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +162,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="done with rebalance" />
+    <option name="LAST_COMMIT_MESSAGE" value="done with rebalance" />
   </component>
 </project>
